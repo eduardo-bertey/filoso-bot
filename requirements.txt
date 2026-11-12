@@ -1,0 +1,5 @@
+# dependencias opcionales (el bot funciona sin ninguna)
+# Cifrado AES-256-GCM (si no, usa ChaCha20 + HMAC en Python puro)
+cryptography>=42.0
+# Derivacion de clave Argon2id (si no, usa PBKDF2-HMAC-SHA256)
+argon2-cffi>=23.1

@@ -1,0 +1,40 @@
+{
+  "telegram_token": "123:ABC",
+  "providers": {
+    "groq": {
+      "keys": [
+        {
+          "key": "k1",
+          "is_default": false
+        },
+        {
+          "key": "k2",
+          "is_default": true
+        }
+      ],
+      "metadata": {
+        "k1": "{\"failures\": 1, \"last_error\": \"HTTP 401 invalid api key\", \"blocked\": true}",
+        "k2": "{\"failures\": 1, \"last_error\": \"HTTP 502\"}"
+      },
+      "healthy": true,
+      "cooldown_until": null,
+      "last_error": null,
+      "blocked_models": [],
+      "custom_models": [
+        "mio"
+      ]
+    }
+  },
+  "calls": {
+    "groq": {
+      "calls": 1,
+      "window_start": 1794510752.167579
+    }
+  },
+  "token_usage": {
+    "groq": {
+      "prompt": 100,
+      "completion": 50
+    }
+  }
+}

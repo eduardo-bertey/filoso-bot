@@ -1,0 +1,80 @@
+{
+  "sessions": {
+    "7767857867": {
+      "game": "trivia",
+      "active": true,
+      "data": {
+        "preguntas": [
+          {
+            "q": "¿Qué ojo se cierra al parpadear?",
+            "a": "Los dos",
+            "options": [
+              "El izquierdo",
+              "El derecho",
+              "Los dos",
+              "Ninguno"
+            ]
+          },
+          {
+            "q": "¿Cuál es el número pi?",
+            "a": "3.14159...",
+            "options": [
+              "2.71828...",
+              "3.14159...",
+              "1.41421...",
+              "9.86960..."
+            ]
+          },
+          {
+            "q": "¿Qué instrumento mide la temperatura?",
+            "a": "El termómetro",
+            "options": [
+              "El barómetro",
+              "El termómetro",
+              "El higrómetro",
+              "El altímetro"
+            ]
+          },
+          {
+            "q": "¿Cuántos lados tiene un hexágono?",
+            "a": "6",
+            "options": [
+              "5",
+              "6",
+              "7",
+              "8"
+            ]
+          },
+          {
+            "q": "¿En qué ciudad se firmó la Declaración de los Derechos Humanos?",
+            "a": "En Paris, 1948",
+            "options": [
+              "En Paris, 1948",
+              "En Londres, 1945",
+              "En Nueva York, 1776",
+              "En Roma, 1947"
+            ]
+          }
+        ],
+        "indice": 2,
+        "aciertos": 1,
+        "total": 5,
+        "actual": {
+          "q": "¿Qué instrumento mide la temperatura?",
+          "a": "El termómetro",
+          "options": [
+            "El barómetro",
+            "El termómetro",
+            "El higrómetro",
+            "El altímetro"
+          ]
+        }
+      },
+      "score": 1,
+      "created_at": 1794510507.778883,
+      "updated_at": 1794510610.2511759
+    }
+  },
+  "counters": {},
+  "history": {}
+}

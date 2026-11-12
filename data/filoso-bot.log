@@ -1,0 +1,12 @@
+2026-11-12 15:29:47,838 INFO    filoso.cleanup: limpieza: 1 mensaje(s) borrados en chat 10
+2026-11-12 15:30:32,562 INFO    filoso.cleanup: limpieza: 1 mensaje(s) borrados en chat 10
+2026-11-12 15:37:05,485 INFO    filoso.cleanup: limpieza: 1 mensaje(s) borrados en chat 10
+2026-11-12 16:03:35,054 INFO    filoso.cleanup: limpieza: 1 mensaje(s) borrados en chat 10
+2026-11-12 16:03:37,312 ERROR   filoso.persist: El archivo está cifrado y no se pasó password.
+2026-11-12 16:03:38,739 ERROR   filoso.persist: El archivo está cifrado y no se pasó password.
+2026-11-12 16:08:02,781 INFO    filoso.cleanup: limpieza: 1 mensaje(s) borrados en chat 10
+2026-11-12 16:08:04,982 ERROR   filoso.persist: El archivo está cifrado y no se pasó password.
+2026-11-12 16:08:06,496 ERROR   filoso.persist: El archivo está cifrado y no se pasó password.
+2026-11-12 16:12:32,610 INFO    filoso.cleanup: limpieza: 1 mensaje(s) borrados en chat 10
+2026-11-12 16:12:33,529 ERROR   filoso.persist: El archivo está cifrado y no se pasó password.
+2026-11-12 16:12:35,255 ERROR   filoso.persist: El archivo está cifrado y no se pasó password.

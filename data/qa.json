@@ -1,0 +1,99 @@
+{
+  "items": [
+    {
+      "q": "¿Qué es un modelo de lenguaje?",
+      "a": "Un modelo de lenguaje (LLM) es una red neuronal entrenada con enormes cantidades de texto para predecir la siguiente palabra (o token). Aprende patrones del lenguaje y puede generar, resumir, traducir o responder preguntas en lenguaje natural.",
+      "tags": "IA, LLM, definición"
+    },
+    {
+      "q": "¿Qué es un Transformer?",
+      "a": "Transformer es la arquitectura de redes neuronales que hizo posible la mayoría de los LLMs modernos. Se basa en el mecanismo de atención, que permite que cada token mire el contexto completo de la secuencia y pesan las partes relevantes entre sí. Seintrodujo en el paper 'Attention Is All You Need' (2017).",
+      "tags": "arquitectura, atención, deep learning"
+    },
+    {
+      "q": "¿Qué es la atención?",
+      "a": "Es el mecanismo que calcula, para cada token, cuánto debe pesar cada otro token del contexto. Produce una combinación ponderada de los valores de entrada. Es lo que permite entender el significado según el contexto y no sólo la posición.",
+      "tags": "transformer, atención, IA"
+    },
+    {
+      "q": "¿Qué es un token?",
+      "a": "Un token es la unidad mínima de texto que un modelo procesa. Puede ser una palabra, parte de una palabra, un signo de puntuación o un espacio. Los modelos modernos usan diccionarios de entre 30.000 y 200.000 tokens.",
+      "tags": "tokenización, LLM"
+    },
+    {
+      "q": "¿Qué es el fine-tuning?",
+      "a": "Fine-tuning es continuar el entrenamiento de un modelo ya entrenado con datos específicos de tu dominio o tarea. Se usa una tasa de aprendizaje baja y pocos epochs, para adaptar el comportamiento sin borrar lo aprendido.",
+      "tags": "entrenamiento, fine-tuning, adaptación"
+    },
+    {
+      "q": "¿Qué es la cuantización?",
+      "a": "Es guardar los pesos con menos bits (por ejemplo 8, 4 o 2 en vez de 16 o 32). Reduce la memoria y acelera la inferencia a costa de una pérdida mínima de calidad. Es lo que permite correr modelos grandes en GPU chicas o en la CPU.",
+      "tags": "optimización, inferencia, bajo consumo"
+    },
+    {
+      "q": "¿Qué es MoE (Mixture of Experts)?",
+      "a": "Mixture of Experts es una arquitectura donde varias redes specialized (los expertos) procesan cada token y un router decide cuáles se activan. Se aumenta la capacidad del modelo sin multiplicar el costo de cómputo: sólo se activan unos pocos expertos por token.",
+      "tags": "MoE, router, expertos, arquitectura"
+    },
+    {
+      "q": "¿Qué es una API key?",
+      "a": "Es una credencial que te da un proveedor de IA para autenticar tus llamadas. Generalmente es una cadena de texto que se manda en una cabecera HTTP. Nunca la compartas ni la subas a un repositorio: guardala cifrada.",
+      "tags": "seguridad, credenciales, API"
+    },
+    {
+      "q": "¿Qué es un prompt?",
+      "a": "Es el texto que le mandás al modelo como entrada. Incluye instrucciones, contexto y la pregunta. Un buen prompt es específico, da un formato de salida y un rol claro.",
+      "tags": "IA, prompt"
+    },
+    {
+      "q": "¿Qué es RAG?",
+      "a": "Retrieval Augmented Generation: antes de responder, el sistema busca documentos relevantes en tu base de conocimiento y los pasa como contexto al modelo. Reduce alucinaciones y permite usar información propia y actualizada.",
+      "tags": "RAG,向量ial, contexto"
+    },
+    {
+      "q": "¿Qué es un embedding?",
+      "a": "Es la representación numérica (vector) de un texto, de forma que textos con significado parecido quedan cerca en el espacio. Se usa para buscar por significado, agrupar documentos o detectar duplicados.",
+      "tags": "embeddings, vectores, búsqueda"
+    },
+    {
+      "q": "¿Qué es temperature en un LLM?",
+      "a": "Controla el azar de la generación. Con temperature bajo (0-0.3) el modelo es más determinista y preciso; con valor alto (0.8-1.2) es más creativo y diverso. Para responder preguntas, se usa bajo.",
+      "tags": "parámetros, generación"
+    },
+    {
+      "q": "¿Qué son los tokens de contexto?",
+      "a": "Es la cantidad máxima de tokens que un modelo puede leer en una sola conversación, contando la pregunta, el historial y la respuesta. Si se pasa, el modelo recorta lo más viejo.",
+      "tags": "contexto, ventana, tokens"
+    },
+    {
+      "q": "¿Qué es Ollama?",
+      "a": "Es una herramienta para correr modelos de lenguaje localmente en tu máquina, sin API ni clave. Descarga modelos y los expone en un servidor compatible con OpenAI en http://localhost:11434. Ideal para privacidad y para trabajar sin internet.",
+      "tags": "local, ollama, privacidad"
+    },
+    {
+      "q": "¿Qué es Telegram Bot API?",
+      "a": "Es la API HTTP que permite que una aplicación controle un bot de Telegram. Se habla con ella por HTTPS: getUpdates trae los mensajes, sendMessage envía respuestas, deleteMessage borra. Todo lo hace un token que entrega BotFather.",
+      "tags": "telegram, bot, api"
+    },
+    {
+      "q": "¿Qué es un hash de contraseña?",
+      "a": "Es una función unidireccional: de la entrada sale un valor fijo del que no se puede volver atrás. Sirve para guardar contraseñas de forma segura: si el archivo se filtra, las contraseñas siguen protegidas.",
+      "tags": "seguridad, contraseñas"
+    },
+    {
+      "q": "¿Qué es AES-GCM?",
+      "a": "Es un cifrado autenticado: con una clave se cifra y además se genera un tag que verifica que el mensaje no fue alterado. Si alguien modifica el archivo cifrado, el descifrado falla en vez de devolver basura.",
+      "tags": "cifrado, seguridad"
+    },
+    {
+      "q": "¿Qué es Argon2?",
+      "a": "Es una función de derivación de clave: convierte una contraseña corta en una clave criptográfica fuerte usando mucha memoria y tiempo. Así, probar contraseñas por fuerza bruta sale carísimo.",
+      "tags": "seguridad, KDF, contraseñas"
+    },
+    {
+      "q": "¿Qué es Wikipedia en español?",
+      "a": "La edición en español de la enciclopedia Wikipedia. Contiene cientos de miles de artículos sobre historia, ciencia, cultura, geografía y más. Es texto libre y se puede usar como corpus de entrenamiento.",
+      "tags": "wikipedia, corpus, datos"
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+[bot]
+name = "FilosoBot"
+language = "es"
+admin_ids = []
+allowed_chats = []
+allowed_threads = []
+allow_all_chats = true
+
+[telegram]
+poll_timeout = 30
+parse_mode = "Markdown"
+max_message_length = 4000
+
+[ai]
+enabled = false
+default_provider = ""
+default_model = ""
+temperature = 0.7
+max_tokens = 900
+system_prompt = "Sos un asistente en Telegram. Respondé en español, breve y claro. Usá Markdown simple. Si no sabés algo, decilo."
+timeout = 60
+cooldown_seconds = 300
+context_messages = 6
+
+[qa]
+enabled = true
+fallback_to_ai = true
+data_file = "data/qa.json"
+
+[filters]
+blocked_words = []
+muted_users = []
+allowed_domains = []
+
+[providers]
+
+[providers.openai]
+style = "openai"
+base_url = "https://api.openai.com/v1"
+chat_path = "/chat/completions"
+models = ["gpt-4o-mini"]
+enabled = false
+priority = 10
+timeout = 60
+
+[providers.openrouter]
+style = "openai"
+base_url = "https://openrouter.ai/api/v1"
+chat_path = "/chat/completions"
+models = ["meta-llama/llama-3.3-70b-instruct"]
+enabled = false
+priority = 20
+timeout = 60
+
+[providers.openrouter.extra_headers]
+HTTP-Referer = "https://github.com/emanuelbertey/FilosoIA"
+X-Title = "FilosoBot"
+
+[providers.groq]
+style = "openai"
+base_url = "https://api.groq.com/openai/v1"
+chat_path = "/chat/completions"
+models = ["llama-3.3-70b-versatile"]
+enabled = false
+priority = 20
+timeout = 45
+
+[providers.mistral]
+style = "openai"
+base_url = "https://api.mistral.ai/v1"
+chat_path = "/chat/completions"
+models = ["mistral-small-latest"]
+enabled = false
+priority = 25
+timeout = 60
+
+[providers.deepseek]
+style = "openai"
+base_url = "https://api.deepseek.com/v1"
+chat_path = "/chat/completions"
+models = ["deepseek-chat"]
+enabled = false
+priority = 25
+timeout = 60
+
+[providers.nvidia]
+style = "openai"
+base_url = "https://integrate.api.nvidia.com/v1"
+chat_path = "/chat/completions"
+models = ["meta/llama-llama-3.3-70b-instruct"]
+enabled = false
+priority = 25
+timeout = 60
+
+[providers.cerebras]
+style = "openai"
+base_url = "https://api.cerebras.ai/v1"
+chat_path = "/chat/completions"
+models = ["llama-3.1-8b"]
+enabled = false
+priority = 25
+timeout = 60
+
+[providers.github]
+style = "openai"
+base_url = "https://models.github.ai/inference"
+chat_path = "/chat/completions"
+models = ["openai/gpt-4.1-mini"]
+enabled = false
+priority = 25
+timeout = 60
+
+[providers.cloudflare]
+style = "openai"
+base_url = "https://gateway.ai.cloudflare.com/v1"
+chat_path = "/chat/completions"
+models = []
+enabled = false
+priority = 25
+timeout = 60
+
+[providers.anthropic]
+style = "anthropic"
+base_url = "https://api.anthropic.com/v1"
+chat_path = "/messages"
+models = ["claude-3-5-haiku-latest"]
+enabled = false
+priority = 15
+timeout = 60
+
+[providers.gemini]
+style = "gemini"
+base_url = "https://generativelanguage.googleapis.com/v1beta"
+chat_path = "/models/{model}:generateContent"
+models = ["gemini-2.0-flash"]
+enabled = false
+priority = 15
+timeout = 60
+
+[providers.llm7]
+style = "openai"
+base_url = "https://api.llm7.io/v1"
+chat_path = "/chat/completions"
+models = ["gpt-4.1-mini"]
+enabled = false
+priority = 25
+timeout = 60
+
+[providers.kilo]
+style = "openai"
+base_url = "https://api.kilo.ai/v1"
+chat_path = "/chat/completions"
+models = []
+enabled = false
+priority = 25
+timeout = 60

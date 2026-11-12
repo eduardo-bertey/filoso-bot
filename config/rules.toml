@@ -1,0 +1,60 @@
+[general]
+allow_offtopic = true
+allow_unknown = true
+ignore_bots = true
+always_reply = false
+require_mention = false
+log_level = "INFO"
+
+[reply]
+max_length = 900
+show_error_details = false
+quote = true
+parse_mode = "Markdown"
+
+[games]
+interactive = true
+allow_commands_during_game = true
+timeout_seconds = 600
+allow_skip = true
+rounds = 5
+
+[qa]
+enabled = true
+fallback_to_ai = true
+min_confidence = 0.34
+allow_questions = true
+
+[ai]
+enabled = false
+allow_without_command = true
+send_history = true
+warn_if_disabled = true
+scheduler_interval = 300
+scheduler_probe = true
+
+[topics]
+enabled = true
+reply_in_thread = true
+per_topic_session = true
+require_mention = false
+
+[cleanup]
+enabled = true
+every_n_messages = 25
+every_seconds = 300
+delete_older_than_seconds = 3600
+protect_commands = true
+
+[filters]
+enabled = true
+delete_on_block = true
+mute_on_block = false
+block_links = false
+max_chars = 2000
+
+[filters.spam]
+enabled = true
+max_repeats = 6
+duplicate_window = 20
+max_duplicates = 3
