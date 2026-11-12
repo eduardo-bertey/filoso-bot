@@ -1,0 +1,1 @@
+¿Qué es una red neuronal? | Es un modelo matemático inspirado en el cerebro: capas de neuronas artificiales (operaciones lineales + funciones de activación) que transforman una entrada en una salida. Se entrena ajustando sus pesos con gradientes para minimizar un error. | red neuronal, deep learning, IA

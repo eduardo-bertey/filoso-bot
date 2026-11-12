@@ -1,0 +1,1 @@
+¿Qué es Telegram Bot API? | Es la API HTTP que permite que una aplicación controle un bot de Telegram. Se habla con ella por HTTPS: getUpdates trae los mensajes, sendMessage envía respuestas, deleteMessage borra. Todo lo hace un token que entrega BotFather. | telegram, bot, api

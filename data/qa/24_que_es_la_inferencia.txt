@@ -1,0 +1,1 @@
+¿Qué es la inferencia? | Es usar un modelo ya entrenado para producir una respuesta ante una entrada nueva. En la inferencia no se actualizan los pesos: sólo se calcula la salida. Se optimiza con cuantización y caché KV. | inferencia, LLM, caché KV

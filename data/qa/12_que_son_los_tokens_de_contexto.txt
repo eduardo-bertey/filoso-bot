@@ -1,0 +1,1 @@
+¿Qué son los tokens de contexto? | Es la cantidad máxima de tokens que un modelo puede leer en una sola conversación, contando la pregunta, el historial y la respuesta. Si se pasa, el modelo recorta lo más viejo. | contexto, ventana, tokens

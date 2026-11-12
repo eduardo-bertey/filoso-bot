@@ -1,0 +1,1 @@
+¿Qué es un prompt? | Es el texto que le mandás al modelo como entrada. Incluye instrucciones, contexto y la pregunta. Un buen prompt es específico, da un formato de salida y un rol claro. | IA, prompt

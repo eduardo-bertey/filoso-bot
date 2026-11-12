@@ -1,0 +1,1 @@
+¿Qué es la cuantización? | Es guardar los pesos con menos bits (por ejemplo 8, 4 o 2 en vez de 16 o 32). Reduce la memoria y acelera la inferencia a costa de una pérdida mínima de calidad. Es lo que permite correr modelos grandes en GPU chicas o en la CPU. | optimización, inferencia, bajo consumo

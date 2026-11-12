@@ -19,8 +19,37 @@ from ..models import Message, OutgoingMessage
 
 log = logging.getLogger("filoso.qa")
 
+QA_DIR = Path(__file__).resolve().parent.parent.parent / "data" / "qa"
 
-def normalize(text: str) -> str:
+
+def _parse_qa_line(line: str) -> Optional[Dict[str, Any]]:
+    line = (line or "").strip()
+    if not line or line.startswith("#"):
+        return None
+    parts = [p.strip() for p in line.split("|")]
+    if len(parts) < 2:
+        return None
+    q = parts[0]
+    a = parts[1]
+    tags = parts[2] if len(parts) > 2 else ""
+    if not q or not a:
+        return None
+    return {"q": q, "a": a, "tags": tags}
+
+
+def _load_from_folder(folder: Path) -> List[Dict[str, Any]]:
+    items: List[Dict[str, Any]] = []
+    if not folder.exists():
+        return items
+    for archivo in sorted(folder.glob("*.txt")):
+        try:
+            for line in archivo.read_text(encoding="utf-8").splitlines():
+                parsed = _parse_qa_line(line)
+                if parsed:
+                    items.append(parsed)
+        except OSError:
+            continue
+    return items
     text = (text or "").lower()
     text = re.sub(r"[¿?¡!.,;:\"'()]", " ", text)
     return re.sub(r"\s+", " ", text).strip()
@@ -35,6 +64,11 @@ class QABank:
         self.load()
 
     def load(self) -> None:
+        # prioridad: carpeta de texto (un .txt por pregunta), luego el json
+        items_folder = _load_from_folder(QA_DIR)
+        if items_folder:
+            self.items = items_folder
+            return
         if not self.path.exists():
             self.items = []
             return

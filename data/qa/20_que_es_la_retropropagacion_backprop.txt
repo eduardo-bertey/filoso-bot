@@ -1,0 +1,1 @@
+¿Qué es la retropropagación (backprop)? | Es el algoritmo que calcula cómo afecta cada peso al error, aplicando la regla de la cadena desde la salida hacia la entrada. Con esos gradientes se actualizan los pesos (descenso de gradiente) para que el modelo mejore. | backpropagation, entrenamiento, gradientes

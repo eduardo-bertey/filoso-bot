@@ -1,0 +1,1 @@
+¿Qué es temperature en un LLM? | Controla el azar de la generación. Con temperature bajo (0-0.3) el modelo es más determinista y preciso; con valor alto (0.8-1.2) es más creativo y diverso. Para responder preguntas, se usa bajo. | parámetros, generación

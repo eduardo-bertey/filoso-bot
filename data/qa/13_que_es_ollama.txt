@@ -1,0 +1,1 @@
+¿Qué es Ollama? | Es una herramienta para correr modelos de lenguaje localmente en tu máquina, sin API ni clave. Descarga modelos y los expone en un servidor compatible con OpenAI en http://localhost:11434. Ideal para privacidad y para trabajar sin internet. | local, ollama, privacidad

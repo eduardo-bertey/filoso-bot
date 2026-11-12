@@ -1,0 +1,1 @@
+¿Qué es RAG? | Retrieval Augmented Generation: antes de responder, el sistema busca documentos relevantes en tu base de conocimiento y los pasa como contexto al modelo. Reduce alucinaciones y permite usar información propia y actualizada. | RAG,向量ial, contexto

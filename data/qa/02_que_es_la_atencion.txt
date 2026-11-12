@@ -1,0 +1,1 @@
+¿Qué es la atención? | Es el mecanismo que calcula, para cada token, cuánto debe pesar cada otro token del contexto. Produce una combinación ponderada de los valores de entrada. Es lo que permite entender el significado según el contexto y no sólo la posición. | transformer, atención, IA

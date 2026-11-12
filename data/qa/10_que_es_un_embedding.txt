@@ -1,0 +1,1 @@
+¿Qué es un embedding? | Es la representación numérica (vector) de un texto, de forma que textos con significado parecido quedan cerca en el espacio. Se usa para buscar por significado, agrupar documentos o detectar duplicados. | embeddings, vectores, búsqueda

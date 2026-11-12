@@ -1,0 +1,1 @@
+¿Qué es el overfitting? | Cuando un modelo memoriza los datos de entrenamiento en vez de aprender patrones generales: va muy bien en train pero mal en datos nuevos. Se combate con más datos, regularización, dropout o early stopping. | overfitting, generalización, regularización

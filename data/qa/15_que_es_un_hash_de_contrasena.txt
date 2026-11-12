@@ -1,0 +1,1 @@
+¿Qué es un hash de contraseña? | Es una función unidireccional: de la entrada sale un valor fijo del que no se puede volver atrás. Sirve para guardar contraseñas de forma segura: si el archivo se filtra, las contraseñas siguen protegidas. | seguridad, contraseñas

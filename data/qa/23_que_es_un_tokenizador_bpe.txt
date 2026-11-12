@@ -1,0 +1,1 @@
+¿Qué es un tokenizador BPE? | Byte Pair Encoding: un tokenizador que empieza con caracteres y va fusionando los pares más frecuentes hasta armar un vocabulario. Es el estándar en la mayoría de los LLMs modernos. | BPE, tokenización, vocabulario

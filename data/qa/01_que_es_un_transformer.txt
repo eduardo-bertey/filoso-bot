@@ -1,0 +1,1 @@
+¿Qué es un Transformer? | Transformer es la arquitectura de redes neuronales que hizo posible la mayoría de los LLMs modernos. Se basa en el mecanismo de atención, que permite que cada token mire el contexto completo de la secuencia y pesan las partes relevantes entre sí. Seintrodujo en el paper 'Attention Is All You Need' (2017). | arquitectura, atención, deep learning

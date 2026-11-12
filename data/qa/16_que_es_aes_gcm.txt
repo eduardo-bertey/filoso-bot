@@ -1,0 +1,1 @@
+¿Qué es AES-GCM? | Es un cifrado autenticado: con una clave se cifra y además se genera un tag que verifica que el mensaje no fue alterado. Si alguien modifica el archivo cifrado, el descifrado falla en vez de devolver basura. | cifrado, seguridad

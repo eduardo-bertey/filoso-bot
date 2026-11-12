@@ -1,0 +1,1 @@
+¿Qué es un token? | Un token es la unidad mínima de texto que un modelo procesa. Puede ser una palabra, parte de una palabra, un signo de puntuación o un espacio. Los modelos modernos usan diccionarios de entre 30.000 y 200.000 tokens. | tokenización, LLM

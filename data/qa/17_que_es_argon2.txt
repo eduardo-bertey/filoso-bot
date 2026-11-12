@@ -1,0 +1,1 @@
+¿Qué es Argon2? | Es una función de derivación de clave: convierte una contraseña corta en una clave criptográfica fuerte usando mucha memoria y tiempo. Así, probar contraseñas por fuerza bruta sale carísimo. | seguridad, KDF, contraseñas

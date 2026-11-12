@@ -1,0 +1,1 @@
+¿Qué es un dataset? | Es un conjunto de datos (textos, imágenes, números) que se usa para entrenar, validar o evaluar un modelo. Su calidad y diversidad importan más que su tamaño para que el modelo aprenda bien. | dataset, datos, entrenamiento

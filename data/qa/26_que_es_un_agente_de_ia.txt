@@ -1,0 +1,1 @@
+¿Qué es un agente de IA? | Es un sistema que usa un modelo de lenguaje para tomar decisiones y ejecutar acciones (leer archivos, llamar APIs, buscar en la web) en un ciclo: observar, razonar, actuar, hasta cumplir un objetivo. | agente, IA, tools

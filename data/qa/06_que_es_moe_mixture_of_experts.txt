@@ -1,0 +1,1 @@
+¿Qué es MoE (Mixture of Experts)? | Mixture of Experts es una arquitectura donde varias redes specialized (los expertos) procesan cada token y un router decide cuáles se activan. Se aumenta la capacidad del modelo sin multiplicar el costo de cómputo: sólo se activan unos pocos expertos por token. | MoE, router, expertos, arquitectura

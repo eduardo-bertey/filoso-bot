@@ -94,6 +94,46 @@
       "q": "¿Qué es Wikipedia en español?",
       "a": "La edición en español de la enciclopedia Wikipedia. Contiene cientos de miles de artículos sobre historia, ciencia, cultura, geografía y más. Es texto libre y se puede usar como corpus de entrenamiento.",
       "tags": "wikipedia, corpus, datos"
+    },
+    {
+      "q": "¿Qué es una red neuronal?",
+      "a": "Es un modelo matemático inspirado en el cerebro: capas de neuronas artificiales (operaciones lineales + funciones de activación) que transforman una entrada en una salida. Se entrena ajustando sus pesos con gradientes para minimizar un error.",
+      "tags": "red neuronal, deep learning, IA"
+    },
+    {
+      "q": "¿Qué es la retropropagación (backprop)?",
+      "a": "Es el algoritmo que calcula cómo afecta cada peso al error, aplicando la regla de la cadena desde la salida hacia la entrada. Con esos gradientes se actualizan los pesos (descenso de gradiente) para que el modelo mejore.",
+      "tags": "backpropagation, entrenamiento, gradientes"
+    },
+    {
+      "q": "¿Qué es un dataset?",
+      "a": "Es un conjunto de datos (textos, imágenes, números) que se usa para entrenar, validar o evaluar un modelo. Su calidad y diversidad importan más que su tamaño para que el modelo aprenda bien.",
+      "tags": "dataset, datos, entrenamiento"
+    },
+    {
+      "q": "¿Qué es el overfitting?",
+      "a": "Cuando un modelo memoriza los datos de entrenamiento en vez de aprender patrones generales: va muy bien en train pero mal en datos nuevos. Se combate con más datos, regularización, dropout o early stopping.",
+      "tags": "overfitting, generalización, regularización"
+    },
+    {
+      "q": "¿Qué es un tokenizador BPE?",
+      "a": "Byte Pair Encoding: un tokenizador que empieza con caracteres y va fusionando los pares más frecuentes hasta armar un vocabulario. Es el estándar en la mayoría de los LLMs modernos.",
+      "tags": "BPE, tokenización, vocabulario"
+    },
+    {
+      "q": "¿Qué es la inferencia?",
+      "a": "Es usar un modelo ya entrenado para producir una respuesta ante una entrada nueva. En la inferencia no se actualizan los pesos: sólo se calcula la salida. Se optimiza con cuantización y caché KV.",
+      "tags": "inferencia, LLM, caché KV"
+    },
+    {
+      "q": "¿Qué es un caché KV?",
+      "a": "Al generar texto token por token, se guardan (cachean) las claves y valores de los tokens ya procesados para no recalcularlos. Acelera mucho la generación, pero consume memoria proporcional a la longitud del contexto.",
+      "tags": "caché KV, inferencia, optimización"
+    },
+    {
+      "q": "¿Qué es un agente de IA?",
+      "a": "Es un sistema que usa un modelo de lenguaje para tomar decisiones y ejecutar acciones (leer archivos, llamar APIs, buscar en la web) en un ciclo: observar, razonar, actuar, hasta cumplir un objetivo.",
+      "tags": "agente, IA, tools"
     }
   ]
 }

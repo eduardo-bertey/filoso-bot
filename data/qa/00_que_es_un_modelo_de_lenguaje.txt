@@ -1,0 +1,1 @@
+¿Qué es un modelo de lenguaje? | Un modelo de lenguaje (LLM) es una red neuronal entrenada con enormes cantidades de texto para predecir la siguiente palabra (o token). Aprende patrones del lenguaje y puede generar, resumir, traducir o responder preguntas en lenguaje natural. | IA, LLM, definición

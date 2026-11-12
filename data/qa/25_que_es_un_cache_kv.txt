@@ -1,0 +1,1 @@
+¿Qué es un caché KV? | Al generar texto token por token, se guardan (cachean) las claves y valores de los tokens ya procesados para no recalcularlos. Acelera mucho la generación, pero consume memoria proporcional a la longitud del contexto. | caché KV, inferencia, optimización

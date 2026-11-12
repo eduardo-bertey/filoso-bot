@@ -1,0 +1,1 @@
+¿Qué es una API key? | Es una credencial que te da un proveedor de IA para autenticar tus llamadas. Generalmente es una cadena de texto que se manda en una cabecera HTTP. Nunca la compartas ni la subas a un repositorio: guardala cifrada. | seguridad, credenciales, API

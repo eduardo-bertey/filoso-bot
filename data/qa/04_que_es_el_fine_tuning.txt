@@ -1,0 +1,1 @@
+¿Qué es el fine-tuning? | Fine-tuning es continuar el entrenamiento de un modelo ya entrenado con datos específicos de tu dominio o tarea. Se usa una tasa de aprendizaje baja y pocos epochs, para adaptar el comportamiento sin borrar lo aprendido. | entrenamiento, fine-tuning, adaptación
